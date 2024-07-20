@@ -117,7 +117,7 @@ export default {
                             }
                         });
                                                       
-                    case '/login':
+                    case '/root':
 
                         if (typeof env.bpb !== 'object') {
                             const errorPage = renderErrorPage('KV Dataset is not properly set!', null, true);
